@@ -1,0 +1,47 @@
+{
+  "name": "react-3d-lite-icons",
+  "version": "1.0.0",
+  "description": "3D lite icon set for React",
+  "keywords": [
+    "react",
+    "icons",
+    "3d"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/superpaos/3d-lite-icons",
+  "bugs": {
+    "url": "https://github.com/superpaos/3d-lite-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superpaos/3d-lite-icons.git"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "generate": "tsx scripts/generate.ts"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "react": "^18.3.1",
+    "tsup": "^8.5.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.9.3"
+  }
+}

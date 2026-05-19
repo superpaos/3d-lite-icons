@@ -1,0 +1,8 @@
+{
+  "name": "3d-lite-icons-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter react-3d-lite-icons build",
+    "generate": "pnpm --filter react-3d-lite-icons generate"
+  }
+}

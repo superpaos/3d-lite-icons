@@ -1,0 +1,20 @@
+# Designer raw files — keep .gitkeep only, ignore everything else
+raw/*
+!raw/.gitkeep
+
+# Node
+node_modules/
+packages/*/node_modules/
+
+# Build output
+packages/*/dist/
+
+# Generated — rebuilt by CI
+packages/react/src/icons.gen.ts
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
