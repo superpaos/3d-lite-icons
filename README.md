@@ -9,15 +9,15 @@
 ### Installation
 
 ```bash
-npm install react-3d-lite-icons
+npm install @superpaos/react-3d-lite-icons
 # or
-pnpm add react-3d-lite-icons
+pnpm add @superpaos/react-3d-lite-icons
 ```
 
 ### Usage
 
 ```tsx
-import { Icon } from 'react-3d-lite-icons'
+import { Icon } from '@superpaos/react-3d-lite-icons'
 
 // Basic
 <Icon name="apple" size={48} />

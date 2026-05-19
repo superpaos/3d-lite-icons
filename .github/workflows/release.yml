@@ -23,12 +23,12 @@ jobs:
       - run: pnpm install
 
       - name: Generate icon map
-        run: pnpm --filter react-3d-lite-icons generate
+        run: pnpm --filter @superpaos/react-3d-lite-icons generate
 
       - name: Build
-        run: pnpm --filter react-3d-lite-icons build
+        run: pnpm --filter @superpaos/react-3d-lite-icons build
 
       - name: Publish to npm
-        run: pnpm --filter react-3d-lite-icons publish --access public --no-git-checks
+        run: pnpm --filter @superpaos/react-3d-lite-icons publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
