@@ -2,7 +2,7 @@
 
 306 3D-style PNG icons served via jsDelivr CDN. Available as a React package or as direct CDN URLs.
 
-<img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/family/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/dog/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/cake/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/coffee-cup/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/wallet/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/gear-settings/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/plane/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/heart-pulse/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/trophy/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/music-note/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/pizza/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/calendar/128.png" width="48" />
+<img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/family/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/dog/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/cake/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/coffee-cup/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/wallet/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/gear-settings/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/plane/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/heart-pulse/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/trophy/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/music-note/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/pizza/128.png" width="48" /><img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/calendar/128.png" width="48" />
 
 ## React
 
@@ -36,7 +36,7 @@ import { Icon } from '@superpaos/react-3d-lite-icons'
 />
 
 // Pinned to a specific release (recommended for production)
-<Icon name="wallet" size={32} version="v1.0.0" />
+<Icon name="wallet" size={32} version="v1.0.1" />
 
 // With className / style
 <Icon name="gear-settings" size={32} className="spin" style={{ opacity: 0.8 }} />
@@ -89,17 +89,17 @@ https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@{version}/icons/{name}/512.p
 **Examples:**
 
 ```html
-<img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/apple/128.png" width="128" />
-<img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/apple/512.png" width="512" />
+<img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/apple/128.png" width="128" />
+<img src="https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/apple/512.png" width="512" />
 ```
 
 ```css
 .icon-apple {
-  background-image: url("https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.0/icons/apple/128.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/superpaos/3d-lite-icons@v1.0.1/icons/apple/128.png");
 }
 ```
 
-> Use a pinned version tag (e.g. `@v1.0.0`) rather than `@latest` in production — jsDelivr caches by tag and `@latest` may lag behind.
+> Use a pinned version tag (e.g. `@v1.0.1`) rather than `@latest` in production — jsDelivr caches by tag and `@latest` may lag behind.
 
 ---
 
